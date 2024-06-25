@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- GoogleFonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+    <!--CSS-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!--favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/img/Favicon.png">
+    <!--ICONS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Valentina Cifras | Front-end Developer</title>
+</head>
+<body id="body">
+
+    <!--NavBar-->
+
+    <nav class="navbar sticky-top navbar-expand-lg" id="nav">
+        <div class="container-fluid" id="nav" >
+            <button class="navbar-toggler" type="button"  data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <img src="assets/img/logo.png" width="50px" alt="">
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav" id="lista-nav">
+                    <li class="nav-item">
+                      <a id="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a id="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                      <a id="nav-link" href="#projects" >Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="nav-link" href="#contact" >Contact</a>
+                    </li>
+                  </ul>
+              </div>
+        </div>
+    </nav>
+
+
+
+
+    <!--Perfil-->
+<header class="container-fluid " id="about">
+    <div class="container d-flex flex-column justify-content-center align-items-center" id="perfil">
+        <div class="row ">
+            <div class="col pt-5 " id="hola">
+                <h1 class="d-flex py-3">Hi, I'm Valentina Cifras</h1> 
+                <h4>I'm a full-stack developer based in Chile, I enjoy creating websites with attractive designs. 
+                    I focus on seamlessly combining functionality with aesthetics to deliver engaging user 
+                    experiences.</h4>
+            </div>
+            <div class="col d-flex justify-content-center p-2">
+                <img src="assets/img/vale.jpg" id="foto" class="rounded-circle overflow-hidden circuloPerfil" width="300px" alt="">
+            </div>
+        </div>
+    </div>
+</header>
+
+<!--Habilidades-->
+
+<div class="container-fluid habilidades" id="skills">
+    <h1 class="text-center p-3">Skills</h1>
+    <div class="row justify-content-center py-5 my-4">
+        <div class="col-6 col-md-1 text-center"><img src="assets/img/html.png" class="img-fluid" alt="HTML"></div>
+        <div class="col-6 col-md-1 text-center"><img src="assets/img/css.png" alt="CSS" class="img-fluid"></div>
+        <div class="col-6 col-md-1 text-center"><img src="assets/img/bootstrap.png" alt="Bootstrap" class="img-fluid"></div>
+        <div class="col-6 col-md-1 text-center"><img src="assets/img/github.png" alt="GitHub" class="img-fluid"></div>
+        <div class="col-6 col-md-1 text-center"><img src="assets/img/jquery.png" alt="jQuery" class="img-fluid"></div>
+        <div class="col-6 col-md-1 text-center"><img src="assets/img/postgresql.png" alt="PostgreSQL" class="img-fluid"></div>
+        <div class="col-6 col-md-1 text-center"><img src="assets/img/python.png" alt="Python" class="img-fluid"></div>
+        <div class="col-6 col-md-1 text-center"><img src="assets/img/django.png" alt="Django" class="img-fluid"></div>
+    </div>
+</div>
+
+
+<!--MisProyectos-->
+<section class="mis-proyectos d-flex flex-column" id="projects">
+    <h1 class="text-center seccion-titulo">Proyects</h1>
+    <h3 class="seccion-descripcion text-center">These are some projects I've created recently...</h3>
+
+    <!--imagenes proyectos-->
+    <div class="container text-center proyectos-contenedor">
+        <div class="row">
+            <!--proyecto1-->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="proyecto">
+                    <img src="assets/img/onlyflans.jpg" alt="proyecto1">
+                    <div class="overlay">
+                        <p>OnlyFlans</p>
+                        <div class="iconos-contenedor">
+                            <a href="https://github.com/ValentinaCifras/ProyectoDjangoFinal.git" target="_blank" rel="noopener noreferrer"><i class="bi bi-github "></i></a>
+                            <a href="https://valentinacifras.pythonanywhere.com/" target="_blank" rel="noopener noreferrer"><i class="bi bi-laptop"></i></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--proyecto2-->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="proyecto">
+                    <img src="assets/img/oliviaros.jpg" alt="proyecto2">
+                    <div class="overlay">
+                        <p>Olivia Ros</p>
+                        <div class="iconos-contenedor">
+                            <a href="https://github.com/ValentinaCifras/OliviaRos.git" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+                            <a href="https://valentinacifras.github.io/OliviaRos/" target="_blank" rel="noopener noreferrer"><i class="bi bi-laptop"></i></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--proyecto3-->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="proyecto">
+                    <img src="assets/img/suricata.jpg" alt="proyecto3">
+                    <div class="overlay">
+                        <p>Suricata</p>
+                        <div class="iconos-contenedor">
+                            <a href="https://github.com/ValentinaCifras/Suricata.git" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+                            <a href="https://valentinacifras.github.io/Suricata/" target="_blank" rel="noopener noreferrer"><i class="bi bi-laptop"></i></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--proyecto4-->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="proyecto">
+                    <img src="assets/img/ricomida.jpg" alt="proyecto4">
+                    <div class="overlay">
+                        <p>Ricomida</p>
+                        <div class="iconos-contenedor">
+                            <a href="https://github.com/ValentinaCifras/ricomida.git" target="_blank" rel="noopener noreferrer"><i class="bi bi-github "></i></a>
+                            <a href="https://valentinacifras.github.io/ricomida/" target="_blank" rel="noopener noreferrer"><i class="bi bi-laptop "></i></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--proyecto5-->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="proyecto">
+                    <img src="assets/img/viajeschile.jpg" alt="proyecto5">
+                    <div class="overlay">
+                        <p>Viajes Chile</p>
+                        <div class="iconos-contenedor">
+                            <a href="https://github.com/ValentinaCifras/ViajesChile.git" target="_blank" rel="noopener noreferrer"><i class="bi bi-github "></i></a>
+                            <a href="https://valentinacifras.github.io/ViajesChile/" target="_blank" rel="noopener noreferrer"><i class="bi bi-laptop "></i></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--proyecto6-->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="proyecto">
+                    <img src="assets/img/cuppon.jpg" alt="proyecto6">
+                    <div class="overlay">
+                        <p>Cuppon </p>
+                        <div class="iconos-contenedor">
+                            <a href="https://github.com/ValentinaCifras/cuppon.git" target="_blank" rel="noopener noreferrer"><i class="bi bi-github "></i></a>
+                            <a href="https://valentinacifras.github.io/cuppon/" target="_blank" rel="noopener noreferrer"><i class="bi bi-laptop "></i></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--Contacto-->
+<section class="contacto seccion-oscura mt-5" id="contact">
+    <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+            <div class="row">
+                <div class="col-12 col-md-4 seccion-titulo">
+                    <H1>Let's talk!</H1>
+                </div>
+                <div class="col-12 col-md-4 descripcion">
+                    <h2>Contact me to start your project</h2>
+                </div>
+                <div class="col-12 col-md-4">
+                    <a href="mailto:valentina.cifras@gmail.com">
+                        <button type="button">
+                            Contact
+                            <i class="bi bi-envelope-at"></i>
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Footer-->
+<footer class="seccion-oscura d-flex d-flex-column align-items-center justify-content-center ">
+    <div class="row">
+        <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+            <a href="https://github.com/ValentinaCifras" target="_blank"><i class="bi bi-github"></i></a>
+            <a href="https://www.linkedin.com/in/valentina-cifras-herrera-32805896/" target="_blank"><i class="bi bi-linkedin"></i></a>
+            <a href="mailto:valentina.cifras@gmail.com"><i class="bi bi-envelope"></i></a>
+        </div>
+        <p class="text-center creado-por">Created by Valentina Cifras 2024</p>
+    </div>
+
+    
+</footer>
+
+
+
+<!--Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+</html>
